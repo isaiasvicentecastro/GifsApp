@@ -10,7 +10,7 @@ const useGisfApp = () => {
     const [previousTerms, setPreviousTerms] = useState<string[]>([])
 
     //Hace que no haga un re-render y poder trabajarlo dentro de useGifApp
-    //si no usamos useRed, lo tendiamos que sacar como el comentario
+    //si no usamos useRef, lo tendiamos que sacar como el comentario
     //que está afuera
     const gifsCache = useRef<Record<string, Gif[]>>({})
 
