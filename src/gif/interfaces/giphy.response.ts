@@ -93,6 +93,8 @@ export interface FixedHeight {
 }
 
 export interface Looping {
+    mp4_size: string;
+    mp4:string;
 }
 
 export interface User {
