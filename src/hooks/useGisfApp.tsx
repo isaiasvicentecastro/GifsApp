@@ -11,7 +11,7 @@ const useGisfApp = () => {
 
     //Hace que no haga un re-render y poder trabajarlo dentro de useGifApp
     //si no usamos useRef, lo tendiamos que sacar como el comentario
-    //que está afuera
+    //que está afuera 
     const gifsCache = useRef<Record<string, Gif[]>>({})
 
     const handleTermClicked = async(term: string) =>{
