@@ -1,0 +1,42 @@
+h1{
+    display: block;
+    margin: 30px;
+}
+
+.cajita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.btnNumberAdd{
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(21, 131, 39);
+    border: rgb(25, 139, 40);
+    color: white;
+}
+
+.btnNumberSubtract{
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    background-color: tomato;
+    border: tomato;
+    color: white;
+}
+
+.btnReset{
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(196, 179, 35);
+    border: tomato;
+    color: white;
+}

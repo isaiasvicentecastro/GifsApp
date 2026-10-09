@@ -1,13 +1,17 @@
 interface Props{
     title: string;
-    description: string;
+    description?: string;
 }
 
-const CustomHeader = ({title, description}:Props) => {
+export const CustomHeader = ({title, description}:Props) => {
   return (
     <div className="content-center">
-      <h1>{title}</h1>
-      {description && <p>{description}</p>}
+      <h1 data-testid="tituloHeader">{title}</h1>
+      {
+        /* El primero hace referencia a que 
+          ¿si descripcion existe?, tienes que crearme <p></p> */
+        description && <p>{description}</p>
+      }
     </div>
   )
 }
